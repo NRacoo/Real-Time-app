@@ -1,6 +1,7 @@
+/** @type {import('postcss').Config} */
 module.exports = {
   plugins: {
-    tailwindcss: {},
+    '@tailwindcss/postcss': {}, // Gunakan plugin resmi yang baru
     autoprefixer: {},
   },
 }
